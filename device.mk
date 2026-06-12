@@ -66,4 +66,4 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/xiaomi/cmi/cmi-vendor.mk)
+$(call inherit-product, vendor/xiaomi/cas/cas-vendor.mk)

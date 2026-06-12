@@ -22,7 +22,7 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/lib/hw/audio.primary.cmi.so': blob_fixup()
         .binary_regex_replace(
             b'/vendor/lib/liba2dpoffload.so',
-            b'liba2dpoffload_cmi.so\x00\x00\x00\x00\x00\x00\x00\x00',
+            b'liba2dpoffload_cas.so\x00\x00\x00\x00\x00\x00\x00\x00',
         )
         .replace_needed('libaudioroute.so', 'libaudioroute-v34.so'),
     ('vendor/lib/libaudioroute_ext.so'): blob_fixup()
@@ -56,13 +56,14 @@ blob_fixups: blob_fixups_user_type = {
 
 namespace_imports = [
     'hardware/qcom-caf/common/libqti-perfd-client',
+    'hardware/qcom-caf/sm8250',
     'hardware/xiaomi',
     'vendor/qcom/opensource/display',
     'vendor/xiaomi/sm8250-common',
 ]
 
 module = ExtractUtilsModule(
-    'cmi',
+    'cas',
     'xiaomi',
     blob_fixups=blob_fixups,
     lib_fixups=lib_fixups,

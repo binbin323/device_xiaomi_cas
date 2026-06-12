@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_cmi.mk
+    $(LOCAL_DIR)/lineage_cas.mk
