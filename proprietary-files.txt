@@ -191,11 +191,11 @@ vendor/lib64/libmialgoengine.so
 vendor/lib64/libmibokeh_845_video.so
 vendor/lib64/libmibokeh_855.so
 vendor/lib64/libmibokeh_mask.so
-vendor/lib64/libmiphone_bokeh_depth.so
-vendor/lib64/libmiphone_bokeh_effect.so
-vendor/lib64/libmiphone_bokeh_gpf.so
-vendor/lib64/libmiphone_bokeh_proc.so
-vendor/lib64/libmiphone_bokeh_rectify.so
+vendor/lib64/libmiphone_bokeh_depth.so;DISABLE_CHECKELF
+vendor/lib64/libmiphone_bokeh_effect.so;DISABLE_CHECKELF
+vendor/lib64/libmiphone_bokeh_gpf.so;DISABLE_CHECKELF
+vendor/lib64/libmiphone_bokeh_proc.so;DISABLE_CHECKELF
+vendor/lib64/libmiphone_bokeh_rectify.so;DISABLE_CHECKELF
 vendor/lib64/libmorpho_HDSR.so
 vendor/lib64/libmpbase.so
 vendor/lib64/libmulticam_optical_zoom_control.so
