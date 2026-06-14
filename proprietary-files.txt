@@ -372,7 +372,8 @@ vendor/etc/camera/camxoverridesettings.txt
 vendor/etc/camera/com.xiaomi.dcal.tt4x.fake
 vendor/etc/camera/com.xiaomi.dcal.tt4x.golden
 vendor/etc/camera/com.xiaomi.dcal.wt.fake
-vendor/etc/camera/com.xiaomi.dcal.wt.goldenvendor/etc/camera/deblur_chess_dsp.dlc
+vendor/etc/camera/com.xiaomi.dcal.wt.golden
+vendor/etc/camera/deblur_chess_dsp.dlc
 vendor/etc/camera/com.xiaomi.dcal.wt4x.fake
 vendor/etc/camera/com.xiaomi.dcal.wu.fake
 vendor/etc/camera/com.xiaomi.dcal.wu.golden
