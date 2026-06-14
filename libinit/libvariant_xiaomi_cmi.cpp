@@ -6,7 +6,7 @@
 
 #include <libvariant.h>
 
-static const variant_info cmi_info = {
+static const variant_info cas_info = {
     .hwc_value = "",
     .sku_value = "",
 
@@ -20,5 +20,5 @@ static const variant_info cmi_info = {
 };
 
 const std::vector<variant_info> variants = {
-    cmi_info,
+    cas_info,
 };
