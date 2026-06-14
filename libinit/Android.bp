@@ -5,8 +5,8 @@
 //
 
 cc_library_static {
-    name: "libvariant_xiaomi_cmi",
-    srcs: ["libvariant_xiaomi_cmi.cpp"],
+    name: "libvariant_xiaomi_cas",
+    srcs: ["libvariant_xiaomi_cas.cpp"],
     header_libs: ["//device/xiaomi/sm8250-common:libvariant_headers"],
     recovery_available: true,
 }
