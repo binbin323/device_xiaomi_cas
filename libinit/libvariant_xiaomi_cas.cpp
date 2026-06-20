@@ -12,8 +12,8 @@ static const variant_info cas_info = {
 
     .brand = "Xiaomi",
     .device = "cas",
-    .marketname = "",
-    .model = "Mi 10 Ultra",
+    .marketname = "Mi 10 Ultra",
+    .model = "M2007J1SC",
     .build_fingerprint = "Xiaomi/cas/cas:13/TKQ1.221114.001/V816.0.4.0.TJJCNXM:user/release-keys",
 
     .nfc = true,
