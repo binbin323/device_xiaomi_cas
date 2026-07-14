@@ -48,11 +48,6 @@ vendor/lib/rfsa/adsp/misound_res.bin
 # Audio
 vendor/lib/hw/audio.primary.kona.so:vendor/lib/hw/audio.primary.cas.so;FIX_SONAME
 vendor/lib/liba2dpoffload.so:vendor/lib/liba2dpoffload_cas.so;FIX_SONAME
-vendor/lib/libacdb-fts.so
-vendor/lib/libacdbloader.so
-vendor/lib/libacdbrtac.so
-vendor/lib/libadiertac.so
-vendor/lib/libaudcal.so
 vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudiocloudctrl.so
 vendor/lib/libaudioconfigstore.so
@@ -383,10 +378,10 @@ vendor/etc/camera/com.xiaomi.dcal.tt4x.fake
 vendor/etc/camera/com.xiaomi.dcal.tt4x.golden
 vendor/etc/camera/com.xiaomi.dcal.wt.fake
 vendor/etc/camera/com.xiaomi.dcal.wt.golden
+vendor/etc/camera/deblur_chess_dsp.dlc
 vendor/etc/camera/com.xiaomi.dcal.wt4x.fake
 vendor/etc/camera/com.xiaomi.dcal.wu.fake
 vendor/etc/camera/com.xiaomi.dcal.wu.golden
-vendor/etc/camera/deblur_chess_dsp.dlc
 vendor/etc/camera/deblur_chess_gpu.dlc
 vendor/etc/camera/deblur_nonchess_dsp.dlc
 vendor/etc/camera/deblur_nonchess_gpu.dlc
